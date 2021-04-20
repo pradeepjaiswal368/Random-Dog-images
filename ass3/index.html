@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #dog-breeds{
+        width: 200px;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    button{
+        padding: 10px;
+        margin-left: 200px
+    }
+    #next{
+        width: 40%;
+    }
+    #next a{
+        text-decoration: none;
+        background-color: grey;
+        padding: 10px;
+        color: black;
+    }
+    
+</style>
+<body>
+    <form action="">
+        <select id="dog-breeds"></select>
+        <!-- <input type="text" id="names"> -->
+        <button id="fetch-image" >Fetch image</button>        
+    </form>
+
+    <div style="margin: 20px;">
+        <img id="image" height="400px" width="500px">
+    </div>
+
+    <div id="next">
+        <a href="">NEXT</a>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
